@@ -1,0 +1,138 @@
+{
+  "brand_identity": {
+    "name": "DroughtGuard",
+    "mission": "Proactive water stress management and rapid tanker allocation for district resilience.",
+    "tone": "Authoritative, Precise, Humanitarian, Data-Driven.",
+    "archetype": "Swiss & High-Contrast (Modified for Environmental Data)",
+    "keywords": ["Resilience", "Clarity", "Speed", "Allocation", "Impact"]
+  },
+  "typography": {
+    "primary_font": "Manrope",
+    "secondary_font": "Inter",
+    "mono_font": "JetBrains Mono",
+    "scale": {
+      "h1": "text-4xl md:text-5xl font-bold tracking-tight leading-none",
+      "h2": "text-3xl md:text-4xl font-semibold tracking-tight",
+      "h3": "text-2xl font-medium tracking-normal",
+      "body": "text-base leading-relaxed text-slate-600",
+      "label": "text-xs font-semibold uppercase tracking-wider text-slate-500",
+      "data": "font-mono text-sm font-medium"
+    },
+    "instructions": "Use Manrope for all headings to give a technical yet human feel. Use Inter for body text for maximum legibility. Use JetBrains Mono for all data tables, coordinates, and sensor readings."
+  },
+  "colors": {
+    "theme": "light",
+    "palette": {
+      "primary": {
+        "main": "#0F172A",
+        "light": "#334155",
+        "dark": "#020617",
+        "contrast": "#F8FAFC"
+      },
+      "secondary": {
+        "main": "#F8FAFC",
+        "dark": "#E2E8F0",
+        "contrast": "#0F172A"
+      },
+      "functional": {
+        "critical": "#EF4444",
+        "warning": "#F97316",
+        "safe": "#10B981",
+        "info": "#0EA5E9",
+        "water": "#3B82F6",
+        "drought": "#D97706"
+      },
+      "background": {
+        "default": "#F8FAFC",
+        "paper": "#FFFFFF",
+        "subtle": "#F1F5F9"
+      }
+    },
+    "gradients": {
+      "drought_warning": "bg-gradient-to-r from-orange-50 to-orange-100 border-l-4 border-orange-500",
+      "water_safe": "bg-gradient-to-r from-blue-50 to-blue-100 border-l-4 border-blue-500"
+    }
+  },
+  "layout_strategy": {
+    "dashboard_grid": "grid grid-cols-1 md:grid-cols-12 gap-6 p-6",
+    "bento_grid": "grid grid-cols-1 md:grid-cols-4 gap-4",
+    "spacing": {
+      "container": "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8",
+      "section_gap": "gap-8",
+      "card_padding": "p-6"
+    },
+    "containers": {
+      "card": "bg-white rounded-xl border border-slate-200 shadow-sm hover:shadow-md transition-shadow duration-200",
+      "panel": "bg-slate-50 rounded-lg border border-slate-200",
+      "map_container": "h-[600px] w-full rounded-xl overflow-hidden border border-slate-300 relative z-0"
+    }
+  },
+  "components": {
+    "buttons": {
+      "primary": "bg-slate-900 text-white hover:bg-slate-800 h-10 px-6 rounded-md font-medium transition-colors focus:ring-2 focus:ring-slate-400 focus:ring-offset-2",
+      "secondary": "bg-white text-slate-900 border border-slate-200 hover:bg-slate-50 h-10 px-6 rounded-md font-medium transition-colors",
+      "critical": "bg-red-600 text-white hover:bg-red-700 h-10 px-6 rounded-md shadow-sm",
+      "icon": "p-2 rounded-full hover:bg-slate-100 text-slate-600 transition-colors"
+    },
+    "inputs": {
+      "default": "flex h-10 w-full rounded-md border border-slate-200 bg-white px-3 py-2 text-sm ring-offset-white file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-slate-500 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-slate-950 focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
+    },
+    "cards": {
+      "stat": "flex flex-col p-6 bg-white border border-slate-200 rounded-xl shadow-sm",
+      "metric_value": "text-3xl font-bold text-slate-900 mt-2",
+      "metric_label": "text-sm font-medium text-slate-500"
+    },
+    "status_badges": {
+      "critical": "inline-flex items-center rounded-full border border-red-200 bg-red-50 px-2.5 py-0.5 text-xs font-semibold text-red-700",
+      "warning": "inline-flex items-center rounded-full border-orange-200 bg-orange-50 px-2.5 py-0.5 text-xs font-semibold text-orange-700",
+      "safe": "inline-flex items-center rounded-full border-green-200 bg-green-50 px-2.5 py-0.5 text-xs font-semibold text-green-700"
+    }
+  },
+  "visual_enhancers": {
+    "shadows": "shadow-[0_2px_8px_rgba(0,0,0,0.04)] hover:shadow-[0_4px_16px_rgba(0,0,0,0.08)]",
+    "borders": "border border-slate-200",
+    "glass": "bg-white/80 backdrop-blur-md border border-white/20 shadow-sm",
+    "texture": "bg-[url('https://www.transparenttextures.com/patterns/subtle-grey.png')] bg-fixed"
+  },
+  "image_assets": {
+    "drought_hero": {
+      "url": "https://images.unsplash.com/photo-1747122450139-6363248ec01f?auto=format&fit=crop&w=1200&q=80",
+      "alt": "Cracked earth representing drought",
+      "usage": "Use as a subtle background overlay or hero image for empty states in critical zones."
+    },
+    "village_aerial": {
+      "url": "https://images.pexels.com/photos/33977859/pexels-photo-33977859.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "alt": "Aerial view of Indian village",
+      "usage": "Use in Village Details cards or headers."
+    },
+    "water_tanker": {
+      "url": "https://images.pexels.com/photos/9739039/pexels-photo-9739039.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "alt": "Water tanker truck",
+      "usage": "Use in Tanker Allocation view or as an icon representation for logistics."
+    }
+  },
+  "libraries": {
+    "maps": "react-leaflet (Leaflet CSS must be imported)",
+    "charts": "recharts",
+    "icons": "lucide-react",
+    "date": "date-fns",
+    "ui": "shadcn/ui (radix-ui primitives)"
+  },
+  "universal_guidelines": [
+    "Always use 'Manrope' for headings and 'Inter' for body.",
+    "Data visualization is priority. Ensure charts are readable and accessible.",
+    "Use 'Slate' colors for neutrals, avoiding pure black.",
+    "Map markers should use color coding: Red (Critical), Orange (Warning), Green (Safe).",
+    "Interactive elements must have hover states (opacity or brightness change).",
+    "Ensure generous padding (p-6+) in dashboard cards.",
+    "Use Skeleton loaders for data fetching states.",
+    "Do not use gradients for backgrounds unless specified for status alerts."
+  ],
+  "instructions_to_main_agent": {
+    "step_1": "Setup the layout shell with a sidebar navigation and top header.",
+    "step_2": "Create the Dashboard View with Summary Cards (Total Villages, Critical Zones, Tankers Available) and a Rainfall Trend Chart.",
+    "step_3": "Implement the Map View using React Leaflet. Mock village data with lat/long if backend is not ready.",
+    "step_4": "Build the Tanker Allocation interface with a list of requests and a simple 'Allocate' action.",
+    "step_5": "Ensure all interactive elements have data-testid attributes for testing."
+  }
+}

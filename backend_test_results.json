@@ -1,0 +1,82 @@
+{
+  "timestamp": "2026-02-23T07:36:34.503303",
+  "total_tests": 18,
+  "passed_tests": 0,
+  "failed_tests": 18,
+  "success_rate": 0.0,
+  "passed_test_names": [],
+  "failed_test_details": [
+    {
+      "test": "API Root",
+      "error": "Request timeout"
+    },
+    {
+      "test": "Seed Database",
+      "error": "Request timeout"
+    },
+    {
+      "test": "Get Villages",
+      "error": "Request timeout"
+    },
+    {
+      "test": "Get Critical Villages",
+      "error": "Request timeout"
+    },
+    {
+      "test": "Get Tankers",
+      "error": "Request timeout"
+    },
+    {
+      "test": "Dashboard Stats",
+      "error": "Request timeout"
+    },
+    {
+      "test": "Priority List",
+      "error": "Request timeout"
+    },
+    {
+      "test": "Villages for Weather",
+      "error": "Request timeout"
+    },
+    {
+      "test": "Villages for Allocation",
+      "error": "Request timeout"
+    },
+    {
+      "test": "Tankers for Allocation",
+      "error": "Request timeout"
+    },
+    {
+      "test": "Create Village",
+      "error": "Request timeout"
+    },
+    {
+      "test": "Rainfall Analysis Module",
+      "error": "Request timeout"
+    },
+    {
+      "test": "Groundwater Analysis Module",
+      "error": "Request timeout"
+    },
+    {
+      "test": "Water Stress Index Module",
+      "error": "Request timeout"
+    },
+    {
+      "test": "Tanker Demand Predictor",
+      "error": "Request timeout"
+    },
+    {
+      "test": "Priority Allocation Engine",
+      "error": "Request timeout"
+    },
+    {
+      "test": "Route Optimization",
+      "error": "Request timeout"
+    },
+    {
+      "test": "Real-Time Monitoring",
+      "error": "Request timeout"
+    }
+  ]
+}
